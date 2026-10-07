@@ -13,3 +13,80 @@
     <h3>Beispiel:</h3>
 </body>
 </html>
+<h2>Formular Übung</h2>
+
+    <form action="mailto:lorenzd@spengergasse.at?subject=Formular%20Absendung" method="post" enctype="text/plain">
+        
+        <!-- Texteingabe (Bonus: required & pattern) -->
+        <p>
+            <label for="name">Name (Texteingabe):</label><br>
+            <input type="text" id="name" name="Name" required pattern="[A-Za-zÄöüÄÖÜß\s]{2,}" title="Bitte geben Sie mindestens 2 Buchstaben ein">
+        </p>
+
+        <!-- Radiobutton -->
+        <p>
+            Geschlecht (Radiobutton):<br>
+            <input type="radio" id="maennlich" name="Geschlecht" value="Männlich" required>
+            <label for="maennlich">Männlich</label><br>
+            
+            <input type="radio" id="weiblich" name="Geschlecht" value="Weiblich">
+            <label for="weiblich">Weiblich</label><br>
+            
+            <input type="radio" id="divers" name="Geschlecht" value="Divers">
+            <label for="divers">Divers</label>
+        </p>
+
+        <!-- Checkbox -->
+        <p>
+            Interessen (Checkbox):<br>
+            <input type="checkbox" id="html" name="Interessen" value="HTML">
+            <label for="html">HTML</label><br>
+            
+            <input type="checkbox" id="css" name="Interessen" value="CSS">
+            <label for="css">CSS</label>
+        </p>
+
+        <!-- Dropdown -->
+        <p>
+            <label for="land">Land (Dropdown):</label><br>
+            <select id="land" name="Land" required>
+                <option value="">-- Bitte wählen --</option>
+                <option value="Österreich">Österreich</option>
+                <option value="Deutschland">Deutschland</option>
+                <option value="Schweiz">Schweiz</option>
+            </select>
+        </p>
+
+        <!-- Mehrfachauswahl -->
+        <p>
+            <label for="sprachen">Programmiersprachen (Mehrfachauswahl):</label><br>
+            <select id="sprachen" name="Sprachen" multiple size="3">
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="C++">C++</option>
+            </select>
+        </p>
+
+        <!-- Weiteres Eingabefeld (Datum) -->
+        <p>
+            <label for="geburtstag">Geburtsdatum (Weiteres Eingabefeld):</label><br>
+            <input type="date" id="geburtstag" name="Geburtsdatum">
+        </p>
+
+        <!-- Mehrzeilige Textfelder -->
+        <p>
+            <label for="nachricht">Nachricht (Mehrzeilige Textfelder):</label><br>
+            <textarea id="nachricht" name="Nachricht" rows="5" cols="30" required></textarea>
+        </p>
+
+        <!-- Submit Button -->
+        <p>
+            <input type="submit" value="Formular abschicken">
+            <input type="reset" value="Formular zurücksetzen">
+        </p>
+
+    </form>
+
+</body>
+</html>
