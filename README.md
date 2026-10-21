@@ -12,8 +12,8 @@ Die Note setzt sich aus zwei gewerteten Bereichen zusammen:
 | Haus/Schul-Übungen, mündl Mitarbeit | 50% | 
 
 ## Termine
-1.PLF 10.12.2026  
-2.PLF 21.01.2027
+1.PLF 09.12.2026  
+2.PLF 20.01.2027
 
 ## Hausübungen
 
