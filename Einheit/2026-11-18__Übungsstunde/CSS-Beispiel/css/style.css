@@ -1,0 +1,34 @@
+#second {
+    color: red
+}
+.grey {
+    color: grey;
+}
+p {
+    color: purple;
+}
+#second {
+    color: blue
+}
+p {
+    color: black;
+    font-size: 16px;
+}
+.text {
+    color: blue;
+    font-size: 20px;
+}
+.highlight {
+    color: green;
+    font-weight: bold;
+}
+p.text {
+    color: orange;
+}
+
+.container .text {
+    color: red;
+}
+.container .highlight {
+    color: yellow;
+}

@@ -1,0 +1,3 @@
+- [Videos zu Google fonts](https://youtu.be/zK-yy6C2Nck) und zu
+- [variablen Fonts](https://www.youtube.com/watch?v=0fVymQ7SZw0) sowie zu den
+- [Informationen](https://youtu.be/Y5TYDo9Qcv4)
